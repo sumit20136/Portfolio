@@ -1,0 +1,34 @@
+.navbar-brand
+{
+    font-weight: bolder;
+    font-size: 3rem;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Roboto Slab', serif;
+}
+.navbar-nav li{
+    padding-left:30px;
+    padding-right:30px;
+    font-size: 1.5rem;;
+    background-color: black;
+}
+.navbar-dark
+{
+    background-color: black;
+    z-index:4;
+}
+li
+{
+    font-weight: bold;
+    /* color: bisque; */
+}
+a
+{
+    color:grey;
+    margin:10px;
+}
+Link:hover
+{
+    cursor: pointer;
+}

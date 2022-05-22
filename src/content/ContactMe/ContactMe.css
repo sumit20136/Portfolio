@@ -1,0 +1,69 @@
+.content_contact
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 80vh;
+    box-shadow: 20px 20px 50px 15px grey;
+}
+.sub-parent_contact
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin:10px;
+}
+
+.image_contact
+{
+    width: 75%;
+    height: 100%;
+    float: left;
+    background: url('../Images/email.jpeg');
+    background-size: 50%;
+    background-size: cover;
+}
+.form
+{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto Slab', serif;
+    padding:20px;
+    width: 50%;
+    height: 100%;
+    float: right;
+    font-size:1vw;
+    background-color: black;
+    color: white;
+}
+input
+{
+    padding:10px;
+}
+label
+{
+    padding:10px;
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: inherit;
+    /* align-items: center; */
+}
+.submit
+{
+    width: 7rem;
+    margin: 5px;
+    padding:10px;
+    background-color: grey;
+    color: white;
+    border: 5px solid black;
+}
+.submit:hover
+{
+    border: 5px solid white;
+}

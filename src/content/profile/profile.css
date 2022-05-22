@@ -1,0 +1,75 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+.profile-container
+{
+    display:flex;
+    align-items:center ;
+    justify-content: center;
+    text-align: center;
+    min-height: fit-content;
+    /* background-color: rgb(26, 13, 38); */
+    background-color: black;
+    color: white;
+    font-size: larger;
+    padding:20px 0px 0px 0px
+}
+.profile-parent
+{
+    display:flex;
+    align-items:center ;
+    justify-content: center;
+
+    /* margin: 30px; */
+    /* padding: 20px; */
+}
+.profile-details
+{
+    -moz-text-decoration-color: brown;
+    text-align: center;
+    width: 75vw;
+}
+.profile-picture
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    /* border-color: aliceblue; */
+    background: url("../Images/download.JPG");
+    background-size: cover;
+}
+.profile-picture:hover
+{
+    border-color: azure;
+}
+.profile-options
+{
+    display:flex;
+    align-items:center ;
+    justify-content: center;
+    text-align: center;
+    min-height: fit-content;
+    /* background-color: rgb(26, 13, 38); */
+    background-color: black;
+    color: white;
+    font-size: larger;
+    padding:20px
+}
+/* .custom-shape-divider-top-1653131853 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+} */
+.btn .btn-outline-dark
+{
+    background-color: grey;
+}

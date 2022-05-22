@@ -1,0 +1,46 @@
+.content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 80vh;
+    box-shadow: 20px 20px 50px 15px grey;
+    color: black;
+}
+.sub-parent
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin:10px;
+}
+
+.image
+{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background: url('../Images/AboutMe.jpg');
+    background-size: cover;
+}
+.description
+{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto Slab', serif;
+    padding:20px;
+    width: 50%;
+    height: 100%;
+    float: right;
+    font-size:1vw;
+}
+h1
+{
+    padding: 10px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto Slab', serif;
+
+}
