@@ -3,7 +3,7 @@ import './AboutMe.css'
 export default function AboutMe() {
     return (
         <div className='parent' id="AboutMe">
-            <div classname='title'>
+            <div className='title'>
                 <center> <h1>About Me</h1></center>
             </div>
             <div className='sub-parent'>

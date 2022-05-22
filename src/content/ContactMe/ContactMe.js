@@ -25,7 +25,7 @@ export default function ContactMe()
       
     return(<>
         <div className='parent_contact' id='ContactMe'>
-            <div classname='title_contact'>
+            <div className='title_contact'>
                 <center> <h1>Contact Me</h1></center>
             </div>
             <div className='sub-parent_contact'>
@@ -45,7 +45,7 @@ export default function ContactMe()
                             {/* <br /> */}
                             <label htmlFor="message">Message:</label>
                             <textarea name="message" id="message" placeholder='Enter your message here' />
-                            <center><input type="submit" class="submit" value="Send"/></center>
+                            <center><input type="submit" className="submit" value="Send"/></center>
                         </form>
                     </div>
                 </div>
