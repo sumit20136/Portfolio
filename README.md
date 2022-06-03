@@ -1,3 +1,7 @@
+The Portfolio is currently hosted on Netlify
+PFA the link:
+    https://flourishing-maamoul-1ee9ee.netlify.app/
+
 # Getting Started with Create React App
 
 
